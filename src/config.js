@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "ShineD90";
+const description = "Instagram: @shinedang90; Twitter: @ShineD90";
+const baseUri = "image.png";
 
 const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  symbol: "DD",
+  seller_fee_basis_points: 250, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://www.facebook.com/TRS.ShinE",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "GZ7DVpGpN26d1MqtKwRiGQdy8a54NFmjaX5zsDFQfEgv",
       share: 100,
     },
   ],
@@ -27,11 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
+      { name: "Bottom lid" },
       { name: "Eyeball" },
       { name: "Eye color" },
       { name: "Iris" },
       { name: "Shine" },
-      { name: "Bottom lid" },
+      { name: "Bottom Goo" },
       { name: "Top lid" },
     ],
   },
